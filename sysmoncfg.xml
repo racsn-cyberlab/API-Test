@@ -586,6 +586,7 @@
 	<!--SYSMON EVENT ID 22 : DNS QUERY [DnsQuery]-->
 	<RuleGroup name="" groupRelation="or">
 		<DnsQuery onmatch="include">
+		</DnsQuery>
 	</RuleGroup>
 
 	<!--SYSMON EVENT ID 255 : ERROR-->
